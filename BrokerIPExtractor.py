@@ -3,7 +3,7 @@ from os.path import isfile, join
 import win32com.client
 import re
 
-mainDirPath = r"C:\Users\Ali Sadeghi Aghili\Downloads\TestDit"
+mainDirPath = #enter the directory's address e.g: r"C:\Users\Ali Sadeghi Aghili\Downloads\TestDit"
 filesName = [fileName for fileName in listdir(mainDirPath) if (not fileName.startswith('~')) and fileName.endswith('.doc')]
 
 
