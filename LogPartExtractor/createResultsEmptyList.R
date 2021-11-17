@@ -1,0 +1,4 @@
+createResultsEmptyList <- function() {
+  list() %>% 
+    return
+}
